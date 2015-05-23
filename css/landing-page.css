@@ -179,13 +179,16 @@ p.copyright {
       width: 300px;
   border-radius: 5px;
   font-size: 18px;
-  padding: 3px;
+  color:black;
+  padding: 7px;
   border-width: 0px;
 }
 
 .submit-button {
     margin-top: -5px;
     padding:5px 12px;
+    font-size: 18px;
+    font-weight: 900px;
 }
 
 .list {
