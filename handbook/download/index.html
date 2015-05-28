@@ -10,13 +10,13 @@
     <title>Growth Marketer Handbook</title>
 
     <!-- Bootstrap Core CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="../../css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom CSS -->
-    <link href="css/landing-page.css" rel="stylesheet">
+    <link href="../../css/landing-page.css" rel="stylesheet">
 
     <!-- MailChimp Signup Form -->
-    <link href="css/signupform.css" rel="stylesheet">
+    <link href="../../css/signupform.css" rel="stylesheet">
 
 <!--End mc_embed_signup-->
 
@@ -31,25 +31,22 @@
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
 
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 
+   <!-- Google Analytics -->
     <script>
-    function isValidEmailAddress(emailAddress) {
-    var pattern = new RegExp(/^((([a-z]|\d|[!#\$%&'\*\+\-\/=\?\^_`{\|}~]|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])+(\.([a-z]|\d|[!#\$%&'\*\+\-\/=\?\^_`{\|}~]|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])+)*)|((\x22)((((\x20|\x09)*(\x0d\x0a))?(\x20|\x09)+)?(([\x01-\x08\x0b\x0c\x0e-\x1f\x7f]|\x21|[\x23-\x5b]|[\x5d-\x7e]|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])|(\\([\x01-\x09\x0b\x0c\x0d-\x7f]|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF]))))*(((\x20|\x09)*(\x0d\x0a))?(\x20|\x09)+)?(\x22)))@((([a-z]|\d|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])|(([a-z]|\d|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])([a-z]|\d|-|\.|_|~|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])*([a-z]|\d|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])))\.)+(([a-z]|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])|(([a-z]|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])([a-z]|\d|-|\.|_|~|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])*([a-z]|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])))\.?$/i);
-    return pattern.test(emailAddress);
-};
-    $(document).ready(function(){
-        $("#mc-embedded-subscribe-form").submit(function(){
-            if(isValidEmailAddress($(".email").val())){
-                $(this).hide()
-                $(".hide-first").show()
-                $("#notification-container").hide()
-            } else{
-                $("#notification-container").show()
-            }
-        })
-    })
-    </script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-63482812-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+<!-- Google Analytics [End]-->
+
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 
 <style id="style-1-cropbar-clipper">/* Copyright 2014 Evernote Corporation. All rights reserved. */
 .en-markup-crop-options {
@@ -66,7 +63,16 @@
 }
 </style></head>
 
-<body data-feedly-mini="yes">
+<!-- Google Tag Manager -->
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-56KPLP"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-56KPLP');</script>
+<!-- End Google Tag Manager -->
+
 
     <!-- Navigation -->
     <nav class="navbar navbar-default navbar-fixed-top topnav" role="navigation">
@@ -79,16 +85,16 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand topnav" href="index.html">The Growth Marketer</a>
+                <a class="navbar-brand topnav" href="../../">The Growth Marketer</a>
             </div>
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
                     <li>
-                        <a href="handbook.html">Handbook</a>
+                        <a href="../../handbook/">Handbook</a>
                     </li>
                     <li>
-                        <a href="about.html">About</a>
+                        <a href="../../about/">About</a>
                     </li>
                 </ul>
             </div>
@@ -115,31 +121,9 @@
                                 <h2 class="call-to-action">Get the E-book
                                 </h2>
                             </li>
-                            <li>
-                                 <!-- <a href="#" class="btn btn-default btn-lg"><i class="fa fa-envelope fa-fw"></i> <span class="network-name">Subscribe</span></a>  -->
-
-                             <form action="http://codyjuric.us10.list-manage.com/subscribe/post?u=eee4313e2966225a97783e70d&amp;id=62a7639337&amp;c=?" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-                                <div id="mc_embed_signup">
-
-                                    <div id="mc_embed_signup_scroll">
-                                    <!-- <label for="mce-EMAIL">Newsletter</label> -->
-                                        <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>
-                                        <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-                                        <div style="position: absolute; left: -5000px;">
-                                            <input type="text" name="b_eee4313e2966225a97783e70d_62a7639337" tabindex="-1" value="">
-                                        </div>
-
-                                    </div>
-                                </div>
-                                <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="btn btn-default btn-md submit-button"> 
-                             </form>
-                                                          
-                                <div id="notification-container">Please enter an email ya hear</div>
-
-                            </li>
                             <li class="list">
-                                <a href="https://gumroad.com/products/HNDI" class="btn btn-default btn-lg hide-first"><i class="fa fa-book fa-fw"></i> <span class="network-name">Get Book</span></a>
-                                <a href="https://twitter.com/thegrowthmarktr" class="btn btn-default btn-lg hide-first"><i class="fa fa-twitter fa-fw"></i> <span class="network-name">Twitter</span></a>
+                                <a href="https://gumroad.com/l/Vbeq" class="btn btn-default btn-lg"><i class="fa fa-book fa-fw"></i> <span class="network-name">Get Book</span></a>
+                                <a href="https://twitter.com/thegrowthmarktr" class="btn btn-default btn-lg"><i class="fa fa-twitter fa-fw"></i> <span class="network-name">Twitter</span></a>
                             </li>
                         </ul>
                         </div>
@@ -155,7 +139,7 @@
 
     <!-- Page Content -->
 
-	<a name="services"></a>
+    <a name="services"></a>
     <div class="content-section-a">
 
         <div class="container">
@@ -167,7 +151,7 @@
                     <p class="lead">Having been practicing and learning to be a growth marketer for some time at Tradecraft - I still had many questions. What skills are most important? What is key to a grow marketer? ...and more questions about skill optionality, what to consider when entering the job market, etc. This is a review of 15 interviews with successfully practiced growth marketers in the Bay Area.</p>
                 </div>
                 <div class="col-lg-5 col-lg-offset-2 col-sm-6">
-                    <img class="img-responsive" src="img/iPadAir_gmhandbook_cover.png" alt="">
+                    <img class="img-responsive" src="../../img/iPadAir_gmhandbook_cover.png" alt="">
                 </div>
             </div>
 
@@ -189,7 +173,7 @@
                     <p class="lead">Subscribe to the GMHandbook Newsletter for biweekly information on growth, growth marketing, marketing skills, and evaluating opportunities! Also, stay up with all news and info from GMHandbook on Twitter!</p>
                 </div>
                 <div class="col-lg-5 col-sm-pull-6  col-sm-6">
-                    <img class="img-responsive" src="img/Connections.png" alt="">
+                    <img class="img-responsive" src="../../img/Connections.png" alt="">
                 </div>
             </div>
 
@@ -209,15 +193,15 @@
                 <div class="col-lg-12">
                     <ul class="list-inline">
                         <li>
-                            <a href="index.html">Home</a>
+                            <a href="../../">Home</a>
                         </li>
                         <li class="footer-menu-divider">⋅</li>
                         <li>
-                            <a href="handbook.html">Handbook</a>
+                            <a href="../../handbook/">Handbook</a>
                         </li>
                         <li class="footer-menu-divider">⋅</li>
                         <li>
-                            <a href="about.html">About</a>
+                            <a href="../../about/">About</a>
                         </li>
                     </ul>
                     <p class="copyright text-muted small">Copyright © TheGrowthMarketer. All Rights Reserved</p>
@@ -227,10 +211,10 @@
     </footer>
 
     <!-- jQuery -->
-    <script src="js/jquery.js"></script>
+    <script src="../../js/jquery.js"></script>
 
     <!-- Bootstrap Core JavaScript -->
-    <script src="js/bootstrap.min.js"></script>
+    <script src="../../js/bootstrap.min.js"></script>
 
 
 
